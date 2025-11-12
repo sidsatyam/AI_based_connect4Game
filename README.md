@@ -83,15 +83,6 @@ The AI uses **Minimax** with **Alpha-Beta pruning** and a **transposition table*
 
 ---
 
-##  Screenshots (optional)
-Add sample images like:
-```
-/images/screenshot1.png
-/images/screenshot2.png
-```
-
----
-
 ##  License
 This project is open-source under the **MIT License**.  
 You are free to use, modify, and distribute it with attribution.
