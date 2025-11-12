@@ -242,8 +242,10 @@ def pick_best_move(board, piece):
 # --------------------------- Pygame UI ---------------------------
 
 pygame.init()
-pygame.mixer.init()
-
+try:
+    pygame.mixer.init()
+except pygame.error:
+    print("⚠️ Audio device not available — sounds disabled.")
 SQUARESIZE = 100
 width = COLUMN_COUNT * SQUARESIZE
 height = (ROW_COUNT + 1) * SQUARESIZE
