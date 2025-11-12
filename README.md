@@ -86,7 +86,7 @@ The AI uses **Minimax** with **Alpha-Beta pruning** and a **transposition table*
 ##  Screenshots 
 Add sample images like:
 ```
-/images/screenshot1.png
+/Screenshot 2025-11-12 201220.png
 /images/screenshot2.png
 ```
 
